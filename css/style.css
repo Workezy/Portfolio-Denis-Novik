@@ -1,0 +1,242 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url(/fonts/Gilroy-Bold.woff),
+         url(/fonts/Gilroy-Medium.woff);
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+  
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+  
+ol, ul {
+    list-style: none;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: "Gilroy", sans-serif;
+}
+
+.header {
+    width: 1445px;
+}
+
+.navigation {
+    padding: 33px 252px 32px 248px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.navigation-item a {
+    text-decoration: none;
+    color: #828282;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.navigation-item a:hover {
+    color: #070707;
+    transition: 0.4s;
+}
+
+.underline {
+    padding-left: 250px;
+}
+
+.header-desc {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.name-title {
+    padding-left: 251px;
+    padding-top: 40px;
+    font-size: 47px;
+    line-height: 58px;
+}
+
+.name-subtitle {
+    padding-left: 297px;
+    padding-top: 94px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.header-lang {
+    padding-top: 69.5px;
+    padding-left: 350px;
+    display: flex;
+    writing-mode: vertical-rl;
+}
+
+.lang-ru {
+    text-decoration: none;
+    color: #828282;
+}
+
+.lang-ru:hover {
+    color: black;
+    transition: 0.3s;
+}
+
+.lang-eng {
+    text-decoration: none;
+    color: #828282;
+}
+
+.lang-eng:hover {
+    color: black;
+    transition: 0.3s;
+}
+
+.header-img {
+    padding-left: 250px;
+    margin-bottom: 104px;
+}
+
+.about {
+    width: 1445px;
+    height: 506px;
+    text-align: center;
+    background-color: #F6F6F6;
+}
+
+.about h2 {
+    padding-top: 120px;
+    font-size: 34px;
+    line-height: 42px;
+}
+
+.about p {
+    margin: 35px auto 10px auto;
+    width: 485px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.skills {
+    width: 1445px;
+}
+
+.skills h2 {
+    margin-top: 91px;
+    text-align: center;
+    font-size: 34px;
+}
+
+.skills p {
+    margin-top: 69px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.skills-item {
+    margin-bottom: 110px;
+    padding-top: 84px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio {
+    width: 1445px;
+    height: 2253px;
+    text-align: center;
+    background-color: #F6F6F6;
+}
+
+.portfolio h2 {
+    padding-top: 113px;
+    text-align: center;
+    font-size: 34px;
+    line-height: 42px;
+}
+
+.portfolio-item img {
+    margin-top: 50px;
+}
+
+.portfolio-item a {
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #070707;
+}
+
+.portfolio-item a:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.portfolio-item p {
+    margin-top: 45px;
+}
+
+.contacts {
+    width: 1445px;
+    margin-top: 114px;
+    text-align: center;
+}
+
+.contacts h2 {
+    font-size: 34px;
+    line-height: 42px;
+    color: #070707;
+}
+
+.contacts-desc {
+    margin-top: 20px;
+
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+
+.contacts-send {
+    margin-top: 30px;
+    width: 180px;
+    background-color: #070707;
+}
+
+button {
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 42px;
+    color: #fff;
+    width: 180.5px;
+    height: 42px;
+    background-color: #070707;
+    border-radius: 50px; 
+}
+
+button:hover {
+    box-shadow: 3px 5px 5px  #828282;
+}
+
+.contacts-img {
+    margin-top: 86px;
+    margin-bottom: 45px;
+}
+
+.contacts-footer {
+    padding-bottom: 123px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
